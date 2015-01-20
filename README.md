@@ -57,7 +57,7 @@
 * 实现了一个能够识别照片中的运动员号码牌的算法程序，该程序可跨平台编译
 * 借鉴了文本识别方面的里程碑算法和最新的学术成果（ICDAR 2013）
 * 建立了容量为1000+的多样化数据集和回归测试工具集。
-* 已在网站爱燃烧（http://iranshao.com/）中上线应用。
+* 已在网站爱燃烧(http://iranshao.com)中上线应用。
 ##### 2011，首届全国大学生数据挖掘邀请赛,研究生组 12/321。
 * 婚恋网站推荐算法，为期1个月，曾在比赛过程中取得过第一
 ##### 2010，摩根士丹利codestorm编程大赛,复旦赛区第三名
@@ -65,90 +65,14 @@
 
 #### 技能清单
 ![enter image description here](http://7u2ncu.com1.z0.glb.clouddn.com/skill-bars.png)
-- 图像识别：
-- web后端：nginx / python-tornado / sqlalchemy / web socket / memcached
-- c++：qt / curl / gtest / libevent / ffmpeg / protobuf 
-- 数据库：odbc / mysql / sqlite / sql server / oracle
+- c++：qt / curl / opencv / protobuf / ffmpeg / gtest / libevent 
+- python：nginx / tornado / sqlalchemy / web socket / memcached
+- 图像识别：文本识别 / MSER / HOG / sobel / niblack
+- 机器学习：adaboost / svm /  DBSCAN / GMM / 
+- 数据库：odbc / mysql / sqlite / sql server 
 - 版本控制：svn / git
-- 任务管理：excel / asana / trello / teambition 
+- 任务管理：Excel / asana / trello / teambition 
 - 文档工具：Word / Visio / 马克飞象(markdown) /  MindManager / reStructuredText
 - IDE&editor：Visual Studio / Sublime / Eclipse / vim
-- 技能树：http://7u2ncu.com1.z0.glb.clouddn.com/full-stack-tree(todo).jpg
-
-### Yanbin Wang ( full version )
-
-#### 联系方式
-- 手机：13564533027
-- Email：marcuswangyb@gmail.com 
-- Email（备用）：skywalker06@163.com
-
-#### 个人信息
- - 硕士 / 复旦大学计算机学院媒体计算所 / 模式识别 
- - 工作年限：3年
- - 期望职位：数据挖掘/图像识别，C++高级程序员，后端开发工程师
- - 期望薪资：税前月薪20k~25k
- - 期望城市：上海（对于北京,深圳,特别喜欢的公司可例外）
- - 个人简介：Geek，脚踏实地的理想主义者。喜欢简洁的事物，相信少即是多。主要项目经历为c++ windows服务端、客户端开发，图像识别算法研发，有领导小团队经验。非常擅长解决问题，被boss评价为能够做成事情的人。业余时做过文曲星卡牌游戏（高中）、跳棋AI对弈程序、增强现实3D画笔、手机快捷传图App、语音识别开关灯等小项目。在互联网行业，我不擅长的东西很多，但我有充足的自信能够快速学习并胜任任何（非管理的）研发岗位，为公司产生实质的价值。
-
-#### 工作经历
-#####  2012 ~ 今,上海亚视信息科技有限公司,研发部主管
-* 源于复旦大学的计算机视觉初创公司，为公司的核心技术人员，管理4人团队
-* 负责公司项目和产品的技术架构，系统规划，研发管理工作，同时是核心产品的主程序员
-* 建立公司公共代码库，技术文档体系，产品开发框架
-* 部门研发的成果支撑了公司约80%的销售收入
-
-#### 项目经历
-##### 2014，通用视频分析系统产品 ，产品负责人（3人团队）
-* 定位于算法提供者的实时视频处理系统，提供多种接口供第三方应用开发
-* 负责产品调研与设计，研发管理，架构设计与主程序开发，安装调试方案制订
-* 使用语言为语言C++,Python。系统内部包含多个软件，涉及技术有：Qt， 多线程+多进程，socket服务端（libevent），http服务端（python），db（mysql, mssql），各种商业第三方组件（摄像头、加密狗）SDK开发
-* 架构具有很强扩展性，参考依赖注入框架PocoCapsule。可以非常快速的进行新增摄像头采集，算法，上传接口的定制化开发。
-* 期间设计并建立了公司的c++代码库，代码库共5个包，包含消息队列，通用摄像头采集组件等常用模块。
-
-##### 2013 - 2014，城市交通管控平台，智能校园监控平台，研发负责人（5人团队）
-* 贵州铜仁市级交通管理平台，包含违章处罚、稽查卡口等功能。复旦视频监控平台，包含人脸识别、车辆轨迹查询、黑名单人脸报警等功能。此二项目均已上线运行。
-* 负责架构设计，技术难题攻克，进度、任务管理，研发资产管理。
-* 了解全部的技术实现细节, 指导团队快速进行技术学习和开发。
-* 包含有web系统(nginx, python-tornado, SQLAlchemy, memcached, oracle)，地图子系统(js, 静态地图, floyd寻路)，数据接入子系统(c++, socket, web service), 平台监控子系统（c++, mysql）。
-
-##### 2012 - 2013，出入口车辆管理系统产品，研发负责人（3人团队）
-* 使用车牌识别代替停车卡进行出入口门岗管理，实现停车场信息化
-* 负责产品设计，架构设计与主体模块功能实现（qt，c++，多线程，mysql/mssql/sqlite，COM/socket通讯），研发管理。建立了开发-测试-部署-调试流程体系。
-* 已在上海时代广场地下停车场，无锡奥特莱斯，北京某政府机关等场所部署应用
- 
-##### 2012，新型电子警察抓拍系统，独立开发
-* 基于视频分析的新型交通违章抓拍系统（c++，多线程，算法集成），应用车牌识别、车辆检测等算法
-* 在大连成功做成试点样板，为公司拿到首笔订单。
-* 为公司首次通过无锡交通研究所产品鉴定
-
-##### 2011 - 2013，基于机器学习的车牌识别算法，负责人（2人学生团队）
-* 从零做起实现基于机器学习的车牌识别算法。作为支撑技术为后期其他项目和产品提供广泛支持。
-* 经历了从实验室级算法到稳定产品级算法的演变历程。经多次现场实测和对比测试，召回率99%，准确率95%，达到业内中上水平。
-* 负责算法调研和设计，指导学生实现代码和测试。
-* c++编码，使用opencv库。基于改进的adaboost和基于颜色增强的边缘检测进行车牌定位，使用niblack二值化和间隙计算实现车牌字符分割，使用svm进行字符识别
-* 独立完成了该算法在linux下的移植工作
-
-#### 其他项目/作品/经历
-
-##### 2014，运动员号码牌识别算法
-* 实现了一个能够识别照片中的运动员号码牌的算法程序，该程序可跨平台编译
-* 借鉴了文本识别方面的里程碑算法和最新的学术成果（ICDAR 2013）
-* 建立了容量为1000+的多样化数据集和回归测试工具集。
-* 已在网站爱燃烧（http://iranshao.com/）中上线应用。
-##### 2011，首届全国大学生数据挖掘邀请赛,研究生组 12/321。
-* 婚恋网站推荐算法，为期1个月，曾在比赛过程中取得过第一
-##### 2010，摩根士丹利codestorm编程大赛,复旦赛区第三名
-* 算法决策模拟炒股比赛，为期24小时，有清北复交四个赛区
-
-#### 技能清单
-![enter image description here](http://7u2ncu.com1.z0.glb.clouddn.com/skill-bars.png)
-- 图像识别：
-- web后端：nginx / python-tornado / sqlalchemy / web socket / memcached
-- c++：qt / curl / gtest / libevent / ffmpeg / protobuf 
-- 数据库：odbc / mysql / sqlite / sql server / oracle
-- 版本控制：svn / git
-- 任务管理：excel / asana / trello / teambition 
-- 文档工具：Word / Visio / 马克飞象(markdown) /  MindManager / reStructuredText
-- IDE&editor：Visual Studio / Sublime / Eclipse / vim
-- 技能树：http://7u2ncu.com1.z0.glb.clouddn.com/full-stack-tree(todo).jpg
+- 技能树：http://7u2ncu.com1.z0.glb.clouddn.com/full-stack-tree.jpg
 
